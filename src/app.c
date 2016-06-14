@@ -1747,16 +1747,12 @@ static void App_DanceTask(void *pdata)
 	uint32_t action = 0;
 	uint32_t action_delay  = 0;
 	
-	//临界区
-//	OS_CPU_SR  cpu_sr;
-	
 	INT8U err;
 
 	while(1)
 	{	
 		OSSemPend(DanceSem,0,&err);
 		
-//		OS_ENTER_CRITICAL();				//进入临界区
 		/*##-1- 打开表情配置文件 */
 		result = f_open(&CfgFile, "0:/dance/apple.txt", FA_OPEN_EXISTING | FA_READ);
 
@@ -1785,7 +1781,6 @@ static void App_DanceTask(void *pdata)
 			
 		/*##-3- 关闭表情配置文件 */
 			f_close(&CfgFile);
-//			OS_EXIT_CRITICAL();					//退出临界区
 			
 			OSTimeDlyHMSM(0,0,0,10);
 		
