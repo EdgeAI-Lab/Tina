@@ -4,7 +4,7 @@ Tina机器人驱动程序 - 控制器STM32F103ZET6 直流电机驱动器DRV8848 
 #Tina机器人的硬件：
 -------------------------
 #一、电机
-* 头部和手腕舵机（型号：MG996R-5V 速度：4.8V@0.19sec/60° 6.0V@0.18sec/60°）
+* 头部和手腕舵机（型号：MG996R-5V 速度：4.8V@0.19sec/60° 6.0V@0.18sec/60°）<br>
 [https://item.taobao.com/item.htm?spm=a230r.1.14.11.IcUJww&id=42433265832&ns=1&abbucket=19#detail](https://item.taobao.com/item.htm?spm=a230r.1.14.11.IcUJww&id=42433265832&ns=1&abbucket=19#detail)
 * 肩部电机(12V-11RPM)<br>
 []()
