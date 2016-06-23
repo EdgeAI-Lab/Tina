@@ -29,7 +29,7 @@ Tina机器人驱动程序 - 控制器STM32F103ZET6 - 直流电机驱动器DRV884
 
 
 ## 眼睛
-* [OLED]()
+* [OLED](https://github.com/FanHongchuang/Tina/wiki/OLED)
 
 ## 电源
 * [12V 10AH锂电池](https://github.com/FanHongchuang/Tina/wiki/12V-10Ah-%E9%94%82%E7%94%B5%E6%B1%A0)
