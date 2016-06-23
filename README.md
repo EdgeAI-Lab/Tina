@@ -15,6 +15,8 @@ Tina机器人驱动程序 - 控制器STM32F103ZET6 - 直流电机驱动器DRV884
 * 脚部电机（RK-3530-12V-78RPM） <br>
 [https://item.taobao.com/item.htm?spm=a1z09.5.0.0.uQuJMg&id=35424445095](https://item.taobao.com/item.htm?spm=a1z09.5.0.0.uQuJMg&id=35424445095)<br><br>
 
+下面是之前使用的电机
+----------------------------------
 * 膝关节电机(12V 37rpm)<br>
 https://item.taobao.com/item.htm?spm=a1z09.2.0.0.Ehy0d2&id=38060390473&_u=pnt24adb20c<br><br>
 
