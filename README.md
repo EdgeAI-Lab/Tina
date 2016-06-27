@@ -27,6 +27,15 @@ Tina机器人驱动程序 - 控制器STM32F103ZET6 - 直流电机驱动器DRV884
 
 * [直滑推拉电位器B10K 调光台电位器5公分 调音台推子50MM单声道](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.Ehy0d2&id=35882888109&_u=pnt24adfcd0)
 
+* [红外避障传感器](https://github.com/FanHongchuang/Tina/wiki/%E7%BA%A2%E5%A4%96%E9%81%BF%E9%9A%9C%E4%BC%A0%E6%84%9F%E5%99%A8%EF%BC%88E18-D80NK-5V%EF%BC%89)
+
+* [红外循迹传感器](https://github.com/FanHongchuang/Tina/wiki/%E7%BA%A2%E5%A4%96%E5%BE%AA%E8%BF%B9%E4%BC%A0%E6%84%9F%E5%99%A8%EF%BC%88TCRT5000-5V%EF%BC%89)
+
+* [超声波模块](https://github.com/FanHongchuang/Tina/wiki/%E8%B6%85%E5%A3%B0%E6%B3%A2%E6%A8%A1%E5%9D%97%EF%BC%88HC-SR04%EF%BC%89)
+
+* [槽型光耦模块（肩关节限位用）](https://github.com/FanHongchuang/Tina/wiki/%E6%A7%BD%E5%9E%8B%E5%85%89%E8%80%A6%E6%A8%A1%E5%9D%97) 
+
+
 
 ## 眼睛
 * [OLED](https://github.com/FanHongchuang/Tina/wiki/OLED)
