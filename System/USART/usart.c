@@ -239,43 +239,43 @@ void App_SerialTask(void *pdata)
 			 }
 			 switch(serialRec)
 			 {
-				  // 1:Robot Forward
+				  // 2:Robot Forward
 					case RobotWalkForward:
 							 actionFlag = 1;			//1：执行摆臂动作 0：不执行摆臂动作
 							 robotMode=Forward;
 							 OSSemPost(ActionSem);
 							 break;
 					
-					// 2:Robot Backward
+					// 3:Robot Backward
 					case RobotWalkBackward:				
 							 robotMode=Backward;
 							 actionFlag = 1;
 							 OSSemPost(BackwardSem);//发送信号量
 							 break;
 					
-					// 3:Robot Turn Left
+					// 4:Robot Turn Left
 					case RobotTurnLeft:
 							 robotMode=ToLeft;
 							 OSSemPost(ActionSem);
 							 break;
 					
-					// 4:Robot Turn Right
+					// 5:Robot Turn Right
 					case RobotTurnRight:
 							 robotMode=ToRight;
 							 OSSemPost(ActionSem);
 							 break;
 					 
-					// 5:Robot Slide Forward
+					// 6:Robot Slide Forward
 					case RobotSlideForward:
 						   robotMode=SlideForward;
 					     break;
 					
-					// 6:Robot Slide Backward
+					// 7:Robot Slide Backward
 					case RobotSlideBackward:
 						   robotMode=SlideBackward;
 					     break;
 					
-					// 7:Robot Head Swing 
+					// 8:Robot Head Swing 
 					case HeadSwing:
 							 HeadMove(50);
 						   OSTimeDlyHMSM(0,0,0,500);
@@ -284,7 +284,7 @@ void App_SerialTask(void *pdata)
                HeadMove(70);
 					     break;			
 
-					// 8:Robot Wave Left Arm 
+					// 9:Robot Wave Left Arm 
 					case WaveLeftArm:
 						
 							 //Robot Left Arm Up
@@ -311,7 +311,7 @@ void App_SerialTask(void *pdata)
 							
 					     break;
 					
-					// 9:Robot Wave Right Arm 
+					// 10:Robot Wave Right Arm 
 					case WaveRightArm:
 							
 					     //Robot Right Arm Up
@@ -339,13 +339,13 @@ void App_SerialTask(void *pdata)
 					     break;
 				
 		
-				  // 10:Robot Waist Swing
+				  // 11:Robot Waist Swing
 					case WaistSwing:
 							 WaistMode = Swing;
 					     break;
 					
 						
-					// 11:Robot Move Legs 
+					// 12:Dance 
 					case LegsMove:
 							OSSemPost(DanceSem);//发送信号量
 					     break;

@@ -40,8 +40,8 @@ void ExecuteAction(u8 action);
 //腰部
 #define WaistSwing           11 //摆动腰部 扭扭腰 扭扭小屁股 风中摇摆
 
-//腿部
-#define LegsMove             12 //动动腿 走两步
+//跳舞
+#define LegsMove             12 //跳舞
 
 //装饰灯
 #define TurnOnDecorateLeds   13 //打开装饰灯
