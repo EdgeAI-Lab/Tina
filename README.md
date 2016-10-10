@@ -44,3 +44,11 @@ Tina机器人驱动程序 - 控制器STM32F103ZET6 - 直流电机驱动器DRV884
 * [12V 10AH锂电池](https://github.com/FanHongchuang/Tina/wiki/12V-10Ah-%E9%94%82%E7%94%B5%E6%B1%A0)
 
 * [蓄电池12V 2.6AH 20W(卖蓄电池的人说是30W，但是只能当20W用)](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.OuYDmC&id=36006074495&_u=oneg06ua80b)
+
+## 功放及扬声器
+* [功放（PAM8610）](https://github.com/FanHongchuang/Tina/wiki/%E5%8A%9F%E6%94%BE%EF%BC%88PAM8610%EF%BC%89)
+
+* [8欧10W扬声器](https://github.com/FanHongchuang/Tina/wiki/8%E6%AC%A710W%E6%89%AC%E5%A3%B0%E5%99%A8)
+
+* [4欧15W扬声器](https://github.com/FanHongchuang/Tina/wiki/4%E6%AC%A715W%E6%89%AC%E5%A3%B0%E5%99%A8)
+
